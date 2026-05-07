@@ -32,7 +32,7 @@ int main(){
                 printf("%s, your Magic Number Is: %d", &name , &gen_magic_num);
             }else{
                 int *npy = &year;
-                npy = npy - 50; /* Create new mmory address */
+                npy = npy - 50; /* Create new memory address */
                 printf("Invalid year at %p!\n", &year);
                 printf("New magic: %d", *npy); /* Dereference the new memory address into a real value */
             }
